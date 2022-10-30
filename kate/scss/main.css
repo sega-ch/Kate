@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: rgb(75, 177, 255);
+  border-bottom: 5px solid #000;
+}
+.main .header .main__photo {
+  width: 120px;
+  height: 80px;
+  border-radius: 35%;
+}
+.main .header .main__photo:hover {
+  width: 400px;
+  height: 500px;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.main .header .title {
+  font-size: 40px;
+  color: rgb(136, 0, 255);
+  /* смещение-x | смещение-y | радиус-размытия | цвет */
+  text-shadow: 5px 13px 6px black;
+}
+.main .header .title:hover {
+  font-size: 60px;
+  color: rgba(75, 177, 255, 0);
+  /* смещение-x | смещение-y | радиус-размытия | цвет */
+  text-shadow: 5px 13px 10px black;
+}
+.main .header .navigation {
+  display: flex;
+  justify-content: space-around;
+}
+.main .header .navigation .navigation__link {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.main .header .navigation a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.main .header .navigation a:hover {
+  color: rgb(136, 0, 255);
+  text-shadow: 1px 1px 15px black;
+}
+.main .discription {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 700px;
+  background-image: url(../resurces/back.jpg);
+}
+.main .discription .message {
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  background: #fff;
+  padding: 20px;
+  color: #222;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.main .discription .message p {
+  padding: 0;
+  margin: 0;
+  color: rgb(95, 0, 126);
+  font-weight: 1000;
+}
+.main .discription .message::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px;
+  top: 15px;
+  z-index: 1;
+}/*# sourceMappingURL=main.css.map */
