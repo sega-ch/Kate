@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./kate/scss/main.css">
+    <link rel="stylesheet" href="../scss/main.css">
+    
     <title>K&S__Story</title>
 </head>
 <body>
     
-    <main class="main">
+    <!-- <div class="login">
+        <input type="text" id="psw" value="userAnsw">
+        <a href="#" onclick="return checkPwd();">Го</a>
+    </div> -->
+
+    <main class="main" id="turn" >
 
         <header class="header">
-            <img src="./kate/resurces/main.jpg" class="main__photo" alt="WE">
+            <img src="../resurces/main.jpg" class="main__photo" alt="WE">
 
             <nav class="navigation">
 
@@ -20,6 +26,7 @@
                 <div class="navigation__link"> <a href="#"  class="gray">Галерея</a> </div>
                 <div class="navigation__link"><a href="suit.html" onclick="return checkPwd();" class="blue">Локальные милости</a></div>
                 <div class="navigation__link"><a href="#" class="gray">Путешествия</a></div>
+                <div class="navigation__link"><a href="../html/game.html" class="gray">play</a></div>
         
 
             </nav>
@@ -44,6 +51,6 @@
         </section>
 
     </main>
-
+    <script src="../js/script.js"></script>
 </body>
 </html>
