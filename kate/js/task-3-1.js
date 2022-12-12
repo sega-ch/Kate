@@ -71,3 +71,4 @@ function findCitie(answer, isSecond)
    
 }
 
+takeInfo();
