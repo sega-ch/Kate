@@ -97,6 +97,45 @@ body {
   height: 700px;
   background-image: url(../resurces/back.jpg);
 }
+.main .discription .animPic {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 500px;
+}
+.main .discription .animPic .pic {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-image: url("../resurces/heart.png");
+  background-size: 500px;
+  background-position: center;
+}
+.main .discription .animPic .pic .heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  font-size: 5rem;
+  -webkit-animation: heart 0.6s infinite alternate linear;
+          animation: heart 0.6s infinite alternate linear;
+}
+@-webkit-keyframes heart {
+  from {
+    transform: scale(0.6);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes heart {
+  from {
+    transform: scale(0.6);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 .main .discription .message {
   font-size: 20px;
   position: relative;
@@ -215,6 +254,28 @@ body {
     align-items: center;
     height: 914px;
     background-image: url(../resurces/back.jpg);
+  }
+  .main .discription .animPic {
+    display: flex;
+    justify-content: center;
+    width: 412px;
+    height: 350px;
+  }
+  .main .discription .animPic .pic {
+    display: flex;
+    width: 412px;
+    height: 350px;
+    background-image: url("../resurces/heart.png");
+    background-size: 350px;
+    background-position: 5px 0;
+    background-repeat: no-repeat;
+  }
+  .main .discription .animPic .pic .heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    font-size: 4rem;
   }
   .main .discription .message {
     font-size: 20px;
