@@ -95,7 +95,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 700px;
-  background-image: url(../resurces/back.jpg);
+  background-image: url("../resurces/back.jpg");
 }
 .main .discription .animPic {
   display: flex;
