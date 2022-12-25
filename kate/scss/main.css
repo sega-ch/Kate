@@ -12,7 +12,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-  background-color: rgb(75, 177, 255);
+  background-image: url("../resurces/NG.jpg");
+  background-size: 290px;
   border-bottom: 5px solid #000;
 }
 .main .header .main__photo {
